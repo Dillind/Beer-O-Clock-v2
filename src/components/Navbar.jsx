@@ -39,56 +39,56 @@ export default function Navbar(props) {
   window.addEventListener("resize", showButton);
 
   return (
-    <nav className={props.darkMode ? "dark" : ""}>
-      <div className="navbar">
-        <div className="navbar-container">
-          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            BEER -
-            <i className="fa-regular fa-clock" /> - CLOCK
-          </Link>
-          <div className="menu-icon" onClick={handleClick}>
-            <i className={click ? "fas fa-times" : "fas fa-bars"} />
+    // <nav className={props.darkMode ? "dark" : ""}>
+    <div className="navbar">
+      <div className="navbar-container">
+        <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+          BEER -
+          <i className="fa-regular fa-clock" /> - CLOCK
+        </Link>
+        <div className="menu-icon" onClick={handleClick}>
+          <i className={click ? "fas fa-times" : "fas fa-bars"} />
+        </div>
+        <ul className={click ? "nav-menu active" : "nav-menu"}>
+          <li className="nav-item">
+            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+              Home
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
+              About
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="/find-a-beer"
+              className="nav-links"
+              onClick={closeMobileMenu}
+            >
+              Find A Beer
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="/sign-up"
+              className="nav-links-mobile"
+              onClick={closeMobileMenu}
+            >
+              Sign Up
+            </Link>
+          </li>
+        </ul>
+        {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
+        <div className="toggler">
+          <p className="toggler--light">Light</p>
+          <div className="toggler--slider" onClick={props.toggleDarkMode}>
+            <div className="toggler--slider--circle"></div>
           </div>
-          <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                Home
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
-                About
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/find-a-beer"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                Find A Beer
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/sign-up"
-                className="nav-links-mobile"
-                onClick={closeMobileMenu}
-              >
-                Sign Up
-              </Link>
-            </li>
-          </ul>
-          {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
-          <div className="toggler">
-            <p className="toggler--light">Light</p>
-            <div className="toggler--slider" onClick={props.toggleDarkMode}>
-              <div className="toggler--slider--circle"></div>
-            </div>
-            <p className="toggler--dark">Dark</p>
-          </div>
+          <p className="toggler--dark">Dark</p>
         </div>
       </div>
-    </nav>
+    </div>
+    // </nav>
   );
 }

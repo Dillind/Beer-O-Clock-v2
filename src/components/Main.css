@@ -1,6 +1,7 @@
 .main-container {
-  background-image: url("/src/images/beer-image-2.jpg");
+  background: url("/src/images/beer-image-2.jpg");
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   height: 100vh;
   width: 100%;
@@ -12,36 +13,66 @@
 }
 
 .main-container > h1 {
-  /* color: #242424; */
-  color: #fff;
+  color: #242424;
+  /* color: #fff; */
   font-size: 80px;
   margin-top: 500px;
+  text-align: center;
 }
 
 .main-container > p {
-  color: #fff;
+  /* color: #fff; */
+  color: #242424;
   font-size: 30px;
   margin: 8px 47px 5px 47px;
   text-align: center;
+  font-weight: 600;
 }
 
 .main-btns {
   margin-top: 32px;
-}
-
-.main-btns .btn {
-  background-color: #242424;
-  color: #fff;
-  border: 1px solid #242424;
-  margin: 5px;
-  font-weight: 600;
+  position: sticky;
 }
 
 @media screen and (max-width: 550px) {
   .main-container > h1 {
     /* color: #242424; */
-    font-size: 50px;
+    font-size: 60px;
     margin-top: 500px;
+  }
+
+  .main-container > p {
+    font-size: 20px;
+  }
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-height: 800px) {
+  .main-container > h1 {
+    /* color: #242424; */
+    font-size: 60px;
+    margin-top: 350px;
+  }
+
+  .main-container > p {
+    font-size: 25px;
+  }
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-height: 570px) {
+  .main-container > h1 {
+    /* color: #242424; */
+    font-size: 30px;
+    margin-top: 250px;
   }
 
   .main-container > p {
