@@ -1,19 +1,55 @@
-main {
+.main-container {
   background-image: url("/src/images/beer-image-2.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   object-fit: contain;
 }
 
-main > h1 {
-  color: ;
+.main-container > h1 {
+  /* color: #242424; */
+  color: #fff;
+  font-size: 80px;
+  margin-top: 500px;
 }
 
-/* Toggle Light/Dark Mode */
+.main-container > p {
+  color: #fff;
+  font-size: 30px;
+  margin: 8px 47px 5px 47px;
+  text-align: center;
+}
+
+.main-btns {
+  margin-top: 32px;
+}
+
+.main-btns .btn {
+  background-color: #242424;
+  color: #fff;
+  border: 1px solid #242424;
+  margin: 5px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 550px) {
+  .main-container > h1 {
+    /* color: #242424; */
+    font-size: 50px;
+    margin-top: 500px;
+  }
+
+  .main-container > p {
+    font-size: 20px;
+  }
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+}

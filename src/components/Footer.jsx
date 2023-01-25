@@ -1,7 +1,8 @@
-import Github from "../img/footer-imgs/github-logo.png";
-import Twitter from "../img/footer-imgs/twitter-logo.png";
-import Website from "../img/footer-imgs/website-icon.png";
-import LinkedIn from "../img/footer-imgs/linkedin-logo.png";
+// import Github from "../img/footer-imgs/github-logo.png";
+// import Twitter from "../img/footer-imgs/twitter-logo.png";
+// import Website from "../img/footer-imgs/website-icon.png";
+// import LinkedIn from "../img/footer-imgs/linkedin-logo.png";
+import "./Footer.css";
 
 export default function Footer() {
   return (
@@ -10,8 +11,9 @@ export default function Footer() {
         <div className="row">
           {/* Column 1 */}
           <div className="col">
+            Link 1
             <a href="https://github.com/Dillind">
-              <img src={Github} alt="Github Logo" className="footer--icons" />
+              {/* <img src={Github} alt="Github Logo" className="footer--icons" /> */}
             </a>
           </div>
           {/* Column 2 */}
@@ -20,12 +22,14 @@ export default function Footer() {
           </div> */}
           {/* Column 3 */}
           <div className="col">
+            {" "}
+            Link 2
             <a href="https://www.linkedin.com/in/dylan-lindsay/">
-              <img
+              {/* <img
                 src={LinkedIn}
                 alt="LinkedIn Logo"
                 className="footer--icons"
-              />
+              /> */}
             </a>
           </div>
         </div>

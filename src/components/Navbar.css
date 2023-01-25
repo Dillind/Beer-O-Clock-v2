@@ -121,7 +121,7 @@ nav.light {
   color: #d5d4d8;
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 910px) {
   .NavbarItems {
     position: relative;
   }
@@ -161,6 +161,7 @@ nav.light {
 
   .navbar-logo {
     position: absolute;
+    margin-top: 10px;
     top: 0;
     left: 0;
     transform: translate(25%, 50%);
