@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Button from "./Button";
 import "./Navbar.css";
 
-export default function Navbar(props) {
+export default function Navbar() {
   // Handle Click Event
   // Action: When Beer icon is clicked, it changes to a full beer.
   // Purpose: To practice complex state objects w/ useState()
@@ -80,13 +80,13 @@ export default function Navbar(props) {
           </li>
         </ul>
         {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
-        <div className="toggler">
+        {/* <div className="toggler">
           <p className="toggler--light">Light</p>
           <div className="toggler--slider" onClick={props.toggleDarkMode}>
             <div className="toggler--slider--circle"></div>
           </div>
           <p className="toggler--dark">Dark</p>
-        </div>
+        </div> */}
       </div>
     </div>
     // </nav>

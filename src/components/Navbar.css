@@ -77,10 +77,6 @@
 
 /* Light-Dark Mode Toggle */
 
-nav.light {
-  background-color: #fff;
-}
-
 .toggler {
   display: flex;
   align-items: center;
