@@ -1,0 +1,85 @@
+.modal-btn {
+  height: 180px;
+  width: auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  z-index: -1;
+}
+
+/* Focus Card Styling */
+
+.modal-container {
+  width: 600px;
+  /* width: 100%; */
+  height: 800px;
+  position: fixed;
+  top: 12%;
+  left: 32%;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 5px 15px;
+}
+
+.beer-title {
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.closeBtn {
+  /* border: 5px solid lime; */
+  margin-right: 5px;
+  width: 15px;
+}
+
+.beer-img {
+  height: 200px;
+  border: 1px solid black;
+  margin-left: 5px;
+}
+.about-beer {
+  margin-left: 5px;
+  font-size: 25px;
+}
+
+.beer-description {
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.card-stats {
+  font-size: 15px;
+}
+
+.card-info-container {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+}
+
+.card-info-container > h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(168, 164, 164);
+  font-size: 20px;
+  height: 50px;
+}
+
+.card-stats > ul {
+  padding: 0;
+  margin: 5px 5px 0 0;
+}
+
+.card-stats > ul > li {
+  /* border: 1px solid aqua; */
+  margin: 5px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 1005px) {
+} ;
