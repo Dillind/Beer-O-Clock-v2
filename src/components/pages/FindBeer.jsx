@@ -2,16 +2,13 @@ import { useState } from "react";
 import "../../App.css";
 // import BeerImageCards from "../BeerImageCards";
 import CountryDropdown from "../CountryDropdown";
-import MainBeerCard from "../MainBeerCard";
+import BeerCard from "../BeerCard";
 
 export default function FindBeer() {
   return (
     <div className="find-beer">
-      {/* <h4>Choose your desired country!</h4> */}
-      <MainBeerCard />
-      {/* <CountryDropdown country="AU" /> AUSTRALIA
-      <CountryDropdown country="US" /> AMERICA
-      <CountryDropdown country="JP" /> JAPAN */}
+      <h1>Choose your desired country!</h1>
+      {<CountryDropdown country="AU" />}
     </div>
   );
 }

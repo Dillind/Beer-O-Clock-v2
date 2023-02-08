@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
+import Footer from "./components/Footer";
 import Main from "./components/Main";
 import Navbar from "./components/Navbar";
 import About from "./components/pages/About";
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/find-a-beer" element={<FindBeer />} />
           <Route path="/sign-up" element={<SignUp />} />
         </Routes>
+        <Footer />
       </Router>
     </>
   );

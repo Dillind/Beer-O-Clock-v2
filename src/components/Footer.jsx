@@ -4,13 +4,13 @@ import "./Footer.css";
 
 export default function Footer() {
   return (
-    <div className="main--footer">
+    <div className="main-footer">
       <div className="container">
         <div className="row">
           {/* Column 1 */}
           <div className="col">
             <a href="https://github.com/Dillind">
-              <img src={Github} alt="Github Logo" className="footer--icons" />
+              <img src={Github} alt="Github Logo" className="footer-icons" />
             </a>
           </div>
           {/* Column 2 */}
@@ -23,7 +23,7 @@ export default function Footer() {
               <img
                 src={LinkedIn}
                 alt="LinkedIn Logo"
-                className="footer--icons"
+                className="footer-icons"
               />
             </a>
           </div>

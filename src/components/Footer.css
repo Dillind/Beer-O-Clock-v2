@@ -2,14 +2,15 @@
   display: flex;
   justify-content: center;
 }
-.main--footer {
+.main-footer {
   color: #fff;
   padding-top: 2.5em;
   padding-bottom: 1em;
   background-color: #242424;
+  position: sticky;
 }
 
-.footer--icons {
+.footer-icons {
   height: 30px;
   /* border: 1px solid red; */
   /* background-color: white; */

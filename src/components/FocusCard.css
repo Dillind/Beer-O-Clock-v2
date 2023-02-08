@@ -1,42 +1,66 @@
 .modal-btn {
   height: 180px;
   width: auto;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   border-radius: 5px;
   z-index: -1;
 }
 
+.modal-btn:hover {
+  transform: scale(1.2);
+}
+
 /* Focus Card Styling */
 
-.modal-container {
-  width: 600px;
-  /* width: 100%; */
-  height: 800px;
+.overlay {
   position: fixed;
-  top: 12%;
+  top: 0px;
+  bottom: 10px;
+  left: 0px;
+  right: 0px;
+  opacity: 1;
+  z-index: 1;
+  background-color: rgba(200, 200, 200);
+  /* display: none; */
+}
+
+.modal-container {
+  width: 500px;
+  height: 700px;
+  position: absolute;
+  top: 15%;
   left: 32%;
   border-radius: 12px;
-  background-color: #fff;
+  background-color: white;
   box-shadow: rgba(0, 0, 0, 0.7) 0px 5px 15px;
 }
 
-.beer-title {
-  font-size: 30px;
-  display: flex;
-  justify-content: space-between;
-  margin: 5px;
+.closeBtn {
+  float: right;
+  margin-right: 8px;
 }
 
-.closeBtn {
-  /* border: 5px solid lime; */
-  margin-right: 5px;
+.closeBtn button {
+  background-color: transparent;
   width: 15px;
+  border: none;
+  font-size: 25px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.beer-title {
+  font-size: 30px;
+  display: block;
+  text-align: center;
+}
+
+.beer-title > h4 {
+  margin: 5px 0px 10px 20px;
 }
 
 .beer-img {
   height: 200px;
   border: 1px solid black;
-  margin-left: 5px;
 }
 .about-beer {
   margin-left: 5px;

@@ -1,0 +1,23 @@
+.dropdown-container {
+  display: block;
+  text-align: center;
+  padding: 20px;
+}
+
+.form-container {
+  padding: 20px;
+}
+
+.form-select {
+  padding: 5px;
+  background-color: rgb(219, 218, 218);
+  border-radius: 5px;
+}
+
+.form-select > option {
+  background-color: #fff;
+}
+
+.country-name > u > img {
+  margin-left: 5px;
+}

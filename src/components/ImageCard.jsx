@@ -7,7 +7,6 @@ export default function ImageCard() {
   const [openModal, setOpenModal] = useState(false);
   const onSubmit = (e) => {
     e.preventDefault();
-    console.log("Refresh prevented!");
   };
   return (
     // this is the image modal. once clicked, a pop-up will show and display a beer information card.
