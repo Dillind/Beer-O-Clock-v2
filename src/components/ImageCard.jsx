@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import GreatNorthernSingle from "../images/great-northern/single-beer.png";
+import GreatNorthernSingle from "../images/great-northern/original/single-beer.png"
 import FocusCard from "./FocusCard";
 
 export default function ImageCard(props) {

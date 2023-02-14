@@ -1,5 +1,5 @@
 // import FocusCard from "./FocusCard";
-import GreatNorthernSingle from "../images/great-northern/single-beer.png";
+import GreatNorthernSingle from "../images/great-northern/original/single-beer.png"
 import "../components/FocusCard.css";
 
 export default function FocusCard({ open, onClose, props }) {
