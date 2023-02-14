@@ -17,7 +17,7 @@ body {
 .about,
 .find-beer,
 .sign-up {
-  height: 90vh;
+  min-height: 100vh;
   width: auto;
   /* display: flex; */
 }
