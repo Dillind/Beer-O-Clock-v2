@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import GreatNorthernSingle from "../images/great-northern/single-beer.png";
 import FocusCard from "./FocusCard";
 
-export default function ImageCard() {
+export default function ImageCard(props) {
   const [openModal, setOpenModal] = useState(false);
   const onSubmit = (e) => {
     e.preventDefault();
@@ -15,7 +15,7 @@ export default function ImageCard() {
       <form onSubmit={onSubmit}>
         <input
           type="image"
-          src={GreatNorthernSingle}
+          src={GreatNorthernSingle} // props
           alt="Beer Image"
           className="modal-btn"
           onClick={() => setOpenModal(true)}

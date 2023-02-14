@@ -61,7 +61,7 @@ export default function FocusCard({ open, onClose, props }) {
                 <span>
                   <b>Alcohol Volume:</b>
                 </span>
-                <span>Alcohol Vol.</span>
+                <span>Alcohol Vol.</span> 
               </li>
               <hr />
               <li>

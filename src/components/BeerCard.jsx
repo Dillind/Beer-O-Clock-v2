@@ -9,17 +9,18 @@ export default function BeerCard() {
 
   return (
     <div className="cards">
-      <ul className="cards-items" id="one">
+      <ul className="cards-items" id="cards-items-one">
+        {/* src, text, label and path for props} */}
+        <ImageCard src="" text="" label="Recommended" path="/" /> 
+        <ImageCard src="" text="" label="Recommended" path="/" />
+        <ImageCard src="" text="" label="Recommended" path="/" />
+      </ul>
+      <ul className="cards-items" id="cards-items-two">
         <ImageCard src="" text="" label="Recommended" path="/" />
         <ImageCard src="" text="" label="Recommended" path="/" />
         <ImageCard src="" text="" label="Recommended" path="/" />
       </ul>
-      <ul className="cards-items" id="two">
-        <ImageCard src="" text="" label="Recommended" path="/" />
-        <ImageCard src="" text="" label="Recommended" path="/" />
-        <ImageCard src="" text="" label="Recommended" path="/" />
-      </ul>
-      <ul className="cards-items" id="three">
+      <ul className="cards-items" id="cards-items-three">
         <ImageCard src="" text="" label="Recommended" path="/" />
         <ImageCard src="" text="" label="Recommended" path="/" />
         <ImageCard src="" text="" label="Recommended" path="/" />

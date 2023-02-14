@@ -7,7 +7,6 @@
   padding-top: 2.5em;
   padding-bottom: 1em;
   background-color: #242424;
-  position: sticky;
 }
 
 .footer-icons {
@@ -20,4 +19,9 @@
 .col-sm > a {
   text-decoration: none;
   color: #fff;
+}
+
+
+@media screen {
+  
 }

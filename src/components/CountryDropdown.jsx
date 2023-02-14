@@ -3,9 +3,9 @@ import BeerCard from "./BeerCard";
 
 import "../components/CountryDropdown.css";
 
-import ReactCountryFlag from "react-country-flag";
+// import ReactCountryFlag from "react-country-flag";
 
-export default function CountryDropdown(props) {
+export default function CountryDropdown() {
   const [country, setCountry] = useState("selectCountry");
 
   const [australianbeerContentVisible, setAustralianBeerContentVisible] =
