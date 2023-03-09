@@ -1,9 +1,10 @@
 # Beer-O-Clock Project
 
-This is version 2 of the project as the first just wasn't really cutting it. This version aims to be bigger and better in every way!
+This is the second version of the project as the first was more of a learning tool to see what I could demonstrate in ReactJS. After reviewing the code and receiving some feedback, I decided it was easier to just restart the project than to modify the code. 
 
 ## Description of Project:
 
-The purpose of this project was to:
+The purpose of this project is to: 
 (a) build a fun project that has a real-world use case. 
-(b) to showcase a project to future employers that I am deeply passionate about.
+(b) to have a unique project for my portfolio
+(c) demonstrates my knowledge of HTML, CSS, JavaScript, JS libraries (React) and APIs. 
