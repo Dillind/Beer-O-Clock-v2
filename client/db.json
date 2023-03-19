@@ -1,0 +1,181 @@
+
+// {
+//     "id":
+//     "brand":
+//     "variation":
+//     "type":
+//     "state": 
+//     "img":
+//     "description":
+//     "size":
+//     "standard_drinks":
+//     "alcohol_volume":
+//     "closure":
+//     "beer_style":
+    
+// }
+
+{
+    "beers": [
+
+        {
+            "id": 0, // use the uuid to generate random IDs??
+            "brand": "Great Northern Brewing Co.",
+            "variation": "Original",
+            "type": "Australia",
+            "state": "QLD",
+            "img": "..src/images/great-northern/single-beer.png",
+            "description":"Beer Description",
+            "size": "330mL",
+            "standard_drinks": "1.1",
+            "alcohol_volume": "4.2%",
+            "closure": "Twist Top",
+            "beer_style": "Lager"
+        },
+
+        {
+            "id": 1,
+            "brand": "Great Northern Brewing Co.",
+            "variation": "Super Crisp",
+            "type": "Australia",
+            "state": "QLD",
+            "img": "image",
+            "description":"Beer Description",
+            "size": "330mL",
+            "standard_drinks": "0.9",
+            "alcohol_volume": "3.5%",
+            "closure": "Twist Top",
+            "beer_style": "Lager"
+        },
+
+        {
+            "id": 2,
+            "brand": "Great Northern Brewing Co.",
+            "variation": "Zero",
+            "type": "Australia",
+            "state": "QLD",
+            "img": "image",
+            "description":"Beer Description",
+            "size": "330mL",
+            "standard_drinks": "0",
+            "alcohol_volume": "0",
+            "closure": "Crown Seal",
+            "beer_style": "Lager"
+        },
+
+        {
+            "id": 3,
+            "brand": "Victoria Bitter",
+            "type": "Australia",
+            "state": "VIC",
+            "img": "../src/images/beer-images/VB/single-beer.png",
+            "description": "Beer Description",
+            "size": "375mL",
+            "standard_drinks": "1.4",
+            "alcohol_volume": "4.9%",
+            "closure": "Twist Top",
+            "beer_style": "Lager"
+        },
+
+        {
+            "id": 4,
+            "brand": "XXXX Gold",
+            "type": "Australia",
+            "state": "QLD",
+            "img": "../src/img/beer-images/Gold/single-beer.png",
+            "description": "Beer Description",
+            "size": "375mL",
+            "standard_drinks": "1",
+            "alcohol_volume": "3.5%",
+            "closure": "Twist Top",
+            "beer_style": "Lager"
+
+        },
+
+        {
+            "id": 5,
+            "brand": "Tooheys",
+            "type":
+            "state":
+            "img":
+            "description":
+            "size":
+            "standard_drinks":
+            "alcohol_volume":
+            "closure":
+            "beer_style":
+            
+        },
+
+        {
+            "id": 6,
+            "brand": "Carlton Draught",
+            "type":
+            "state":
+            "img":
+            "description":
+            "size":
+            "standard_drinks":
+            "alcohol_volume":
+            "closure":
+            "beer_style":
+            
+        },
+
+        {
+            "id": 7,
+            "brand": "Asahi",
+            "type": "Japan",
+            "state": null,
+            "img": "beer img url",
+            "description": "Beer Description",
+            "size": "330mL",
+            "standard_drinks": "1.3",
+            "alcohol_volume": "5%",
+            "closure": "Crown Seal",
+            "beer_style": "Lager",
+            "retail_link": {
+                "BWS": "link",
+                "Dan_Murphys": "link",
+                "Liquorland": "link"
+            }
+        },
+
+        {
+            "id": 8,
+            "brand": "Sapporo",
+            "type": "Japan",
+            "state": null,
+            "img": "beer img url",
+            "description": "Beer Description",
+            "size": "355mL",
+            "standard_drinks": "1.4",
+            "alcohol_volume": "5%",
+            "closure": "Crown Seal",
+            "beer_style": "Lager",
+            "retail_link": {
+                "BWS": "link",
+                "Dan_Murphys": "link",
+                "Liquorland": "link"
+            }
+        },
+        {
+            "id": 9,
+            "brand": "Kirin",
+            "type": "Japan",
+            "state": null,
+            "img": "beer img url",
+            "description": "Beer Description",
+            "size": "330mL",
+            "standard_drinks": "1.2",
+            "alcohol_volume": "4.5%",
+            "closure": "Crown Seal",
+            "beer_style": "Lager",
+            "retail_link": {
+                "BWS": "link",
+                "Dan_Murphys": "link",
+                "Liquorland": "link"
+            }
+        }
+    ]
+}
